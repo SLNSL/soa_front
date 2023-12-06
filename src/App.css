@@ -1,5 +1,29 @@
 .App {
-  text-align: center;
+  text-align: left;
+  display: grid;
+  background-color: rgba(255, 255, 255, 0.5); /* Фон красим фиолетовым */
+}
+
+.element {
+  border: 1px solid rgb(0, 0, 0); /* Обводим зелёной линией */
+  text-align: left;
+  margin: 10px 10px 10px 10px;
+  padding: 5px;
+}
+.element > * {
+  margin: 10px 10px 10px 10px !important;
+}
+
+.element > h3 {
+  color: #2a2a2a;
+}
+
+ th, td {
+  border: 1px solid;
+}
+
+.button {
+  margin-top: 16px !important;
 }
 
 .App-logo {
